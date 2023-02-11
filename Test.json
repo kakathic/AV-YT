@@ -1,0 +1,25 @@
+{
+	"is_microg_broken": false,
+	"manager": {
+		"version": "2.6.2",
+		"versionCode": 262,
+		"url": "https://github.com/YTVanced/VancedManager/releases/latest/download/manager.apk",
+		"changelog": "- test"
+	},
+  	"vanced": {
+    "version": "18.04.41",
+    "versionCode": 1535774144,
+    "themes": ["dark", "black"],
+    "changelog": "- hello test."
+    },	"music": {
+		"version": "4.64.51",
+		"versionCode": 46451200,
+		"changelog": "- test"
+	},
+	"microg": {
+		"version": "0.2.24.220220",
+		"versionCode": 220220001,
+		"url": "https://github.com/YTVanced/VancedMicroG/releases/latest/download/microg.apk",
+		"changelog": "- test"
+	}
+}
