@@ -8,7 +8,7 @@ git config --global --add safe.directory $TOME/Test
 git config --global user.email "kakathic@gmail.com"
 git config --global user.name "kakathic"
 git config --global init.defaultBranch Vip
-echo -n 'https://kakathic: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@github.com' >> $HOME/.git-credentials
+echo -n 'https://kakathic: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@github.com' >> $HOME/.git-credentials
 cd $TOME/Test
 git init
 git config pull.rebase true
