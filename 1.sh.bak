@@ -1,0 +1,21 @@
+#git rm -rf file
+
+
+rm -fr /data/user/0/com.termux/files/usr/etc/apt/sources.list.d/*
+
+
+git config --global user.email "kakathic@gmail.com"
+git config --global user.name "kakathic"
+termux-setup-storage
+cd /storage/emulated/0/Alarms
+git config --global --add safe.directory /storage/emulated/0/Alarms
+git init
+git config pull.rebase true
+git branch -m ZH
+git add .
+git commit -m "Uploaded"
+git remote add origin https://github.com/kakathic/ZH-VN.git
+git pull origin ZH
+git push origin ZH
+kakathic
+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
