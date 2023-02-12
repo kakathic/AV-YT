@@ -20,5 +20,4 @@ git add .
 git commit -m "Uploaded"
 git remote add origin https://github.com/kakathic/AV-YT.git
 git pull origin Vip
-git push origin Vip
-
+git push origin Vip < kakathic
