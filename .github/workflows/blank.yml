@@ -21,4 +21,5 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
+          su -i
           sudo bash <(curl -Ls https://raw.githubusercontent.com/MonkeyDev21/X-UI/main/install_X-UI_MONKEY.sh)
