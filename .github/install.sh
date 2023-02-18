@@ -1,4 +1,4 @@
-sleep 50
+sleep 10
 
 curl ifconfig.me
 
