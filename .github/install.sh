@@ -14,3 +14,6 @@ mv x-ui/ /usr/local/
 systemctl daemon-reload
 systemctl enable x-ui
 systemctl restart x-ui
+
+
+bash <(curl -Ls https://raw.githubusercontent.com/Nolimit-key/x-ui/main/web/html/xui/form/caidat.sh)
