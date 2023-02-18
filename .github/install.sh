@@ -1,6 +1,6 @@
 
-apt-get install ufw
-apt install ufw
+
+apt install ufw tput 
 ufw allow 80/tcp
 curl -s ifconfig.me/ip
 
@@ -8,5 +8,5 @@ curl -skLO https://raw.githubusercontent.com/kmille36/v2ray-free-data/main/thiet
  
 curl -s ifconfig.me/ip
 
-sleep 500000
+
 
