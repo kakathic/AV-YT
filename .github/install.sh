@@ -1,11 +1,5 @@
-sleep 10
-
-curl -s ifconfig.me/ip
-sleep 5
-curl -s ifconfig.me/ip
-
-nohup bash <(curl -Ls https://raw.githubusercontent.com/MonkeyDev21/X-UI/main/install_X-UI_MONKEY.sh) & sleep 500000
-
+Mcurl -skLO https://raw.githubusercontent.com/kmille36/v2ray-free-data/main/thiet-lap-v2ray.sh && sudo bash thiet-lap-v2ray.sh
+ 
 curl -s ifconfig.me/ip
 
 
