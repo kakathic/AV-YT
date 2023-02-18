@@ -22,4 +22,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           su --help
-          su -c bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+          su -s .github/install.sh
